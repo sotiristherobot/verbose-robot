@@ -17,9 +17,7 @@ const Point = ({ x, y }: Point) => {
     };
 
     return (
-        <div>
-            <div style={styles}></div>
-        </div>
+        <div style={styles}></div>
     )
 }
 export default Point;
