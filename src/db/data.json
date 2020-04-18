@@ -25,7 +25,7 @@
       "line_base_y": 274
     },
     {
-        "gaze_id": 1,
+        "gaze_id": 2,
         "gaze_session_id": "20200206T094815-0288+0100",
         "gaze_name": "Task0.java",
         "gaze_type": "java",
@@ -49,7 +49,7 @@
         "line_base_y": 274
       },
       {
-        "gaze_id": 1,
+        "gaze_id": 3,
         "gaze_session_id": "20200206T094815-0288+0100",
         "gaze_name": "Task0.java",
         "gaze_type": "java",

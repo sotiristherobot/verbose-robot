@@ -1,6 +1,6 @@
 import React from 'react';
 import { map } from 'lodash';
-import Point from './components/Point';
+import Point from './components/point/Point';
 
 // data
 import pointData from './db/data.json';
