@@ -19,7 +19,9 @@ const Point = ({ x, y }: IPoint) => {
     */
     //TODO Add resize logic
     React.useEffect(() => {
-        window.addEventListener('resize', () => setCords({ x: cords.x - 20, y: cords.y - 10 } as IPoint));
+        const resizeListener = () => setCords({ x: cords.x - 20, y: cords.y - 10 } as IPoint);
+        window.addEventListener('resize', resizeListener);
+        return () => window.removeEventListener('resize', resizeListener );
     }, [cords.x, cords.y]);
 
     return (
