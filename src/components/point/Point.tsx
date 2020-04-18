@@ -21,7 +21,7 @@ const Point = ({ x, y }: IPoint) => {
     React.useEffect(() => {
         const resizeListener = () => setCords({ x: cords.x - 20, y: cords.y - 10 } as IPoint);
         window.addEventListener('resize', resizeListener);
-        return () => window.removeEventListener('resize', resizeListener );
+        return () => window.removeEventListener('resize', resizeListener);
     }, [cords.x, cords.y]);
 
     return (
